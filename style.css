@@ -641,7 +641,7 @@ footer p {
     /* Main Content */
 
     .gradient {
-        -webkit-linear-gradient: (transparent, #1A1A1A);
+        background: -webkit-linear-gradient(transparent, #1A1A1A);
         background-image:
             linear-gradient( transparent, #1A1A1A);
         width: 100%;
