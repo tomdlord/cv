@@ -412,7 +412,7 @@ footer p {
 
     .content {
         padding: 0px;
-        background-color: black;
+        background-color: #1a1a1a;
         margin: 0px;
         width: 100%;
     }
@@ -585,7 +585,7 @@ footer p {
         max-width: 1440px;
         margin-left: auto;
         margin-right: auto;
-        padding: 48px 48px 0px 48px;
+        padding: 12px 48px 0px 48px;
     }
 
 
@@ -620,7 +620,8 @@ footer p {
 
     .hero h1 {
         position: fixed;
-        bottom: 100px;
+        bottom: 150px;
+        margin: 0px;
         left: 50%;
         transform: translateX(-50%);
         z-index: -1;
@@ -631,7 +632,7 @@ footer p {
         flex-direction: column;
         justify-content: center;
         position: fixed;
-        bottom: 100px;
+        bottom: 40px;
         left: 50%;
         transform: translateX(-50%);
         z-index: -2;
