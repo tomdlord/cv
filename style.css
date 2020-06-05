@@ -97,9 +97,9 @@ header {
 
 
 #logo {
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 600;
-    letter-spacing: -0.68px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     text-transform: uppercase;
     opacity: 1;
@@ -195,15 +195,15 @@ hr {
     padding: 0px;
     margin-top: 48px;
     margin-bottom: 48px;
+    opacity: 0.1;
 }
 
 
 /* Footer */
 
 footer {
-    height: 100px;
-    padding-top: 100px;
-    padding-bottom: 50px;
+        padding-top: 50px;
+    padding-bottom: 100px;
     background-color: white;
 }
 
@@ -215,13 +215,18 @@ footer a {
     background-color: none;
     text-decoration: none;
     color: black;
+    padding-bottom: 48px;
     
 }
 
 footer p {
-    padding-top: 100px;
     color: black;
     font-size: small;
+}
+
+footer h4 {
+    color: #1a1a1a;
+    padding-bottom: 24px;
 }
 
 
@@ -440,15 +445,12 @@ footer p {
     /* Footer */
 
     footer {
-        height: 50px;
-        width: 100%;
+        height: 100px;
+        padding-top: 50px;
+        padding-bottom: 100px;
         background-color: white;
-        margin: 0px;
-        max-width: 1440px;
-        margin-left: 0px;
-        margin-right: 0px;
     }
-
+    
     footer a {
         display: block;
         font-size: 80px;
@@ -457,13 +459,18 @@ footer p {
         background-color: none;
         text-decoration: none;
         color: black;
+        padding-bottom: 48px;
         
     }
-
+    
     footer p {
-        padding-top: 100px;
         color: black;
         font-size: small;
+    }
+    
+    footer h4 {
+        color: #1a1a1a;
+        padding-bottom: 24px;
     }
 }
 
@@ -482,7 +489,7 @@ footer p {
 
     body {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
         line-height: 1.6;
         color: white;
@@ -498,14 +505,14 @@ footer p {
         font-weight: 400;
         line-height: 0.75;
         letter-spacing: 0px;
-        text-align: center;
+        text-align: left;
         color: #F2F2F2;
         opacity: 1;
     }
 
     h2 {
         font-family: 'Darker Grotesque', serif;
-        font-size: 34px;
+        font-size: 38px;
         font-weight: 300;
         line-height: 1.2;
         letter-spacing: 0px;
@@ -516,9 +523,9 @@ footer p {
 
     h3 {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 300;
-        line-height: 1.5;
+        line-height: 1.6;
         letter-spacing: 0px;
         text-align: left;
         color: #F2F2F2;
@@ -527,7 +534,7 @@ footer p {
 
     h4 {
         font-family: 'Darker Grotesque', serif;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
         line-height: 1;
         text-align: left;;
@@ -539,11 +546,11 @@ footer p {
 
     a {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
         line-height: 1.5;
         text-align: left;
-        text-decoration: underline;
+        text-decoration: none;
         color: rgb(126, 126, 126);
         margin: 0px;
         padding: 0px;
@@ -584,19 +591,19 @@ footer p {
 
     header {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
         max-width: 1440px;
         margin-left: auto;
         margin-right: auto;
-        padding: 12px 48px 0px 48px;
+        padding: 12px 24px 0px 24px;
     }
 
 
     #logo {
-        font-size: 24px;
+        font-size: 14px;
         font-weight: 600;
-        letter-spacing: -0.68px;
+        letter-spacing: 1px;
         color: #FFFFFF;
         text-transform: uppercase;
         opacity: 1;
@@ -632,13 +639,14 @@ footer p {
     }
 
     .scroll {
+        font-size: 14px;
+        text-align: left;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         position: fixed;
         bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 68px;
         z-index: -2;
     }
 
@@ -677,28 +685,35 @@ footer p {
     }
 
     .right h2 {
-        padding: 0px;
+        padding: 0 0 48px 0;
         margin: 0px;
     }
 
     hr {
-        padding: 0px;
-        margin-top: 48px;
-        margin-bottom: 48px;
+        display: none;
     }
 
     /* Footer */
 
-    footer {
-        height: 60px;
+    .footer-container
+
+    .footer-container {
+        display: none;
+    }
+
+    .mob-footer {
+        height: 200px;
         width: 100%;
         background-color: white;
         margin: 0px;
         margin-left: 0px;
         margin-right: 0px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        z-index: 400;
     }
 
-    footer a {
+    .mob-footer a {
         display: block;
         font-size: 40px;
         line-height: 0;
@@ -709,12 +724,7 @@ footer p {
         
     }
 
-    .footer-container {
-        margin: 0px;
-        padding-left: 24px;
-    }
-
-    footer p {
+    .mob-footer p {
         padding-top: 50px;
         padding-left: 0px;
         color: black;
