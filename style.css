@@ -104,7 +104,8 @@ header {
     text-transform: uppercase;
     opacity: 1;
     position: fixed;
-    padding-top: 50px;
+    padding-top: 50px;animation-name: herofadein;
+    animation-duration: 1s;
 }
 
 
@@ -131,7 +132,18 @@ header a {
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
+    animation-name: herofadein;
+    animation-duration: 2s;
+  
+    
 }
+  
+@keyframes herofadein{
+    0% {opacity: 0%;}
+    80% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
 
 .scroll {
     display: flex;
@@ -141,7 +153,8 @@ header a {
     bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: -2;
+    z-index: -2;animation-name: herofadein;
+    animation-duration: 3s;
 }
 
 /* Main Content */
