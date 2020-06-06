@@ -73,6 +73,10 @@ a {
     opacity: 1;
 }
 
+a:hover {
+    color: gray;
+}
+
 /* Structure */
 
 .container {
@@ -190,6 +194,10 @@ header a {
     grid-column: 1 / 6;
 }
 
+.left a {
+    text-decoration: none;
+}
+
 .right {
     grid-column: 7 / 12;
 }
@@ -204,6 +212,10 @@ header a {
     margin: 0px;
 }
 
+#contact {
+    padding-top: 0px;
+}
+
 hr {
     padding: 0px;
     margin-top: 48px;
@@ -215,14 +227,14 @@ hr {
 /* Footer */
 
 footer {
-        padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: white;
 }
 
 footer a {
     display: block;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 0px;
     font-family: 'Darker Grotesque', serif;
     background-color: none;
@@ -239,7 +251,7 @@ footer p {
 
 footer h4 {
     color: #1a1a1a;
-    padding-bottom: 24px;
+    padding-bottom: 10px;
 }
 
 
@@ -503,7 +515,7 @@ footer h4 {
 
     body {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 300;
         line-height: 1.6;
         color: white;
@@ -537,7 +549,7 @@ footer h4 {
 
     h3 {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 300;
         line-height: 1.6;
         letter-spacing: 0px;
@@ -711,40 +723,15 @@ footer h4 {
 
     /* Footer */
 
-    .footer-container
-
-    .footer-container {
-        display: none;
+    footer .container {
+        background-color: transparent;
     }
 
-    .mob-footer {
-        height: 200px;
-        width: 100%;
-        background-color: white;
-        margin: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-top: 50px;
-        padding-bottom: 100px;
-        z-index: 400;
+    footer {
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
-    .mob-footer a {
-        display: block;
-        font-size: 40px;
-        line-height: 0;
-        font-family: 'Darker Grotesque', serif;
-        background-color: none;
-        text-decoration: none;
-        color: black;
-        
-    }
+    
 
-    .mob-footer p {
-        padding-top: 50px;
-        padding-left: 0px;
-        color: black;
-        font-size: small;
-        background-color: none;
-    }
 }
