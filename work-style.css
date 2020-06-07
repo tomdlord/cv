@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+/* Type styles */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: #1A1A1A;
+    opacity: 1;
+}
+
+h1 {
+    font-family: 'Darker Grotesque', serif;
+    font-size: 160px;
+    font-weight: 400;
+    line-height: 0.75;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Darker Grotesque', serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+h4 {
+    font-family: 'Darker Grotesque', serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: left;;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: underline;
+    color: rgb(126, 126, 126);
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+}
+
+a:hover {
+    color: gray;
+}
+
+/* Structure */
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+/* Navigation */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 48px 0px 48px;
+}
+
+
+#logo {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    position: fixed;
+    padding-top: 50px;animation-name: herofadein;
+    animation-duration: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1440px) {
+
+
+}
+
+
+
+
+
+@media (max-width: 750px) {
+
+    
+}
