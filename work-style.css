@@ -104,6 +104,7 @@ header {
     font-weight: 400;
     letter-spacing: 5px;
     text-align: center;
+    text-decoration: none;
     color: #1a1a1a;
     text-transform: uppercase;
     opacity: 1;
@@ -126,7 +127,7 @@ header a {
 
 .hero {
     max-width: 1440px;
-    height: 100vh;
+    height: 30vh;
     margin: 0px;
     padding: 0px;
 }
