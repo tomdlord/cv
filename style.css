@@ -136,7 +136,7 @@ header a {
 
 .hero h1 {
     position: fixed;
-    bottom: 100px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
@@ -166,7 +166,7 @@ header a {
     flex-direction: column;
     justify-content: center;
     position: fixed;
-    bottom: 100px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
     z-index: -2;
@@ -431,7 +431,7 @@ footer h4 {
 
     .hero h1 {
         position: fixed;
-        bottom: 100px;
+        bottom: 30px;
         left: 50%;
         transform: translateX(-50%);
         z-index: -1;
@@ -442,7 +442,7 @@ footer h4 {
         flex-direction: column;
         justify-content: center;
         position: fixed;
-        bottom: 100px;
+        bottom: 30px;
         left: 50%;
         transform: translateX(-50%);
         z-index: -2;
