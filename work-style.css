@@ -16,7 +16,7 @@ body {
 
 h1 {
     font-family: 'Darker Grotesque', serif;
-    font-size: 160px;
+    font-size: 80px;
     font-weight: 400;
     line-height: 0.75;
     letter-spacing: 0px;
@@ -110,8 +110,6 @@ header {
     opacity: 1;
     position: fixed;
     padding-top: 50px;
-    animation-name: herofadein;
-    animation-duration: 1s;
 }
 
 
@@ -138,18 +136,8 @@ header a {
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
-    animation-name: herofadein;
-    animation-duration: 2s;
-  
-    
 }
   
-@keyframes herofadein{
-    0% {opacity: 0%;}
-    80% {opacity: 0%;}
-    100% {opacity: 100%;}
-}
-
 
 .scroll {
     display: flex;
@@ -159,8 +147,7 @@ header a {
     bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: -2;animation-name: herofadein;
-    animation-duration: 3s;
+    z-index: -2;
 }
 
 /* Selected work */
@@ -195,6 +182,7 @@ header a {
   
   .year{
     font-weight: lighter;
+    opacity: 0.5;
   }
 
 
@@ -253,6 +241,232 @@ footer h4 {
 
 @media (max-width: 1440px) {
 
+    /* Type styles */
+
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.6;
+        color: #1A1A1A;
+        margin: 0px;
+        padding: 0px;
+        background: #F2F2F2;
+        opacity: 1;
+    }
+
+    h1 {
+        font-family: 'Darker Grotesque', serif;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 0.75;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #1A1A1A;
+        opacity: 1;
+    }
+
+    h2 {
+        font-family: 'Darker Grotesque', serif;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1A1A1A;
+        opacity: 1;
+    }
+
+    h3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.5;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1A1A1A;
+        opacity: 1;
+    }
+
+    h4 {
+        font-family: 'Darker Grotesque', serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1;
+        text-align: left;;
+        letter-spacing: 0.8px;
+        color: #1A1A1A;
+        text-transform: uppercase;
+        opacity: 0.8;
+    }
+
+    a {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.5;
+        text-align: left;
+        text-decoration: underline;
+        color: rgb(126, 126, 126);
+        margin: 0px;
+        padding: 0px;
+        opacity: 1;
+    }
+
+    a:hover {
+        color: gray;
+    }
+
+    /* Structure */
+
+    .container {
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    /* Navigation */
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 48px 48px 0px 48px;
+    }
+
+
+    #logo {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-align: center;
+        text-decoration: none;
+        color: #1a1a1a;
+        text-transform: uppercase;
+        opacity: 1;
+        position: fixed;
+        padding-top: 50px;
+    }
+
+
+    header h5, a {
+        color: white;
+    }
+
+    header a {
+        padding-left: 24px;
+    }
+
+    /* Hero */
+
+    .hero {
+        max-width: 1440px;
+        max-height: 250px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .hero h1 {
+        position: fixed;
+        top: 100px;
+        left: 20px;
+        width: 100%;
+        transform: translateX(0%);
+        z-index: -1;
+    
+        
+    }
+    
+    @keyframes herofadein{
+        0% {opacity: 0%;}
+        80% {opacity: 0%;}
+        100% {opacity: 100%;}
+    }
+
+
+    .scroll {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -2;
+    }
+
+    /* Selected work */
+
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        column-gap: 48px;
+        background: #F2F2F2;
+        z-index: 100;
+    }
+    
+    .projecttext{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 48px;
+    }
+    
+    .project1, .project2, .project3, .project4{
+        display: flexbox;
+    }
+    
+    .projects img{
+        display: block;
+        object-fit: contain;
+        width: 100%;
+    }
+    
+    .projecttext h2, h3{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .year{
+        font-weight: lighter;
+    }
+
+
+    /* Footer */
+
+    footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: white;
+    }
+
+    footer a {
+        display: block;
+        font-size: 60px;
+        line-height: 0px;
+        font-family: 'Darker Grotesque', serif;
+        background-color: none;
+        text-decoration: none;
+        color: black;
+        padding-bottom: 48px;
+        
+    }
+
+    footer p {
+        color: black;
+        font-size: small;
+    }
+
+    footer h4 {
+        color: #1a1a1a;
+        padding-bottom: 10px;
+    }
+
 
 }
 
@@ -262,5 +476,204 @@ footer h4 {
 
 @media (max-width: 750px) {
 
+    /* Type styles */
+
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.7;
+        color: #1A1A1A;
+        margin: 0px;
+        padding: 0px;
+        background: #F2F2F2;
+        opacity: 1;
+    }
+
+    h1 {
+        font-family: 'Darker Grotesque', serif;
+        font-size: 10vw;
+        font-weight: 400;
+        line-height: 0.75;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1A1A1A;
+        opacity: 1;
+    }
+
+    h2 {
+        font-family: 'Darker Grotesque', serif;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1A1A1A;
+        opacity: 1;
+    }
+
+    h3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.6;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1A1A1A;
+        opacity: 1;
+    }
+
+    h4 {
+        font-family: 'Darker Grotesque', serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1;
+        text-align: left;;
+        letter-spacing: 0.8px;
+        color: #1A1A1A;
+        text-transform: uppercase;
+        opacity: 0.8;
+    }
+
+    a {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5;
+        text-align: left;
+        text-decoration: none;
+        color: rgb(126, 126, 126);
+        margin: 0px;
+        padding: 0px;
+        opacity: 1;
+    }
+
+    /* Structure */
+
+    .container {
+        max-width: 1440px;
+        margin: 0px;
+        padding: 24px;
+        background: #F2F2F2;
+        opacity: 1;
+    }
+
+
+    /* Navigation */
+
+    header {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 12px 24px 0px 24px;
+    }
+
+
+    #logo {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-align: left;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        background-color: #F2F2F2;
+        width: 100%;
+        margin: 0px;        
+        transform: translateX(0%);
+        z-index: 100;
+        padding-top: 40px;
+        height: 48px;
+    }
+
+
+    header h5, a {
+        color: #1A1A1A;
+    }
+
+    header a {
+        padding-left: 24px;
+    }
+
+    /* Hero */
+
+    .hero {
+        width: 100vw;
+        height: 15vh;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .hero h1 {
+        position: fixed;
+        bottom: 80px;
+        left: 0px;
+        margin: 0px;
+        left: 20px;
+        transform: translateX(0%);
+        z-index: -1;
+    }
+
+    .scroll {
+        font-size: 14px;
+        text-align: left;
+        position: fixed;
+        bottom: 20px;
+        transform: translateX(0%);
+        left: 20px;
+        z-index: -2;
+    }
+
+    /* Selected work */
+
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        column-gap: 24px;
+        background: #F2F2F2;
+        z-index: 100;
+    }
     
+    .projecttext{
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 48px;
+    }
+    
+    .project1, .project2, .project3, .project4{
+        display: flexbox;
+    }
+    
+    .projects img{
+        display: block;
+        line-height: 0px;
+        object-fit: contain;
+        width: 100%;
+    }
+    
+    .projecttext h2, h3{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .year{
+        font-weight: lighter;
+    }
+
+    /* Footer */
+
+    footer .container {
+        background-color: transparent;
+    }
+
+    footer {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    
+
 }
