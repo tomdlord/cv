@@ -366,7 +366,6 @@ footer h4 {
 
     .hero {
         max-width: 1440px;
-        max-height: 250px;
         margin: 0px;
         padding: 0px;
     }
@@ -378,27 +377,8 @@ footer h4 {
         width: 100%;
         transform: translateX(0%);
         z-index: -1;
-    
-        
-    }
-    
-    @keyframes herofadein{
-        0% {opacity: 0%;}
-        80% {opacity: 0%;}
-        100% {opacity: 100%;}
     }
 
-
-    .scroll {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: fixed;
-        bottom: 100px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: -2;
-    }
 
     /* Selected work */
 
@@ -408,6 +388,7 @@ footer h4 {
         column-gap: 48px;
         background: #F2F2F2;
         z-index: 100;
+        padding-top: 24px;
     }
     
     .projecttext{
