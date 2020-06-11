@@ -486,15 +486,14 @@ footer h4 {
     /* Footer */
 
     footer {
-        height: 100px;
-        padding-top: 50px;
-        padding-bottom: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         background-color: white;
     }
     
     footer a {
         display: block;
-        font-size: 80px;
+        font-size: 60px;
         line-height: 0px;
         font-family: 'Darker Grotesque', serif;
         background-color: none;
@@ -511,7 +510,7 @@ footer h4 {
     
     footer h4 {
         color: #1a1a1a;
-        padding-bottom: 24px;
+        padding-bottom: 10px;
     }
 }
 
