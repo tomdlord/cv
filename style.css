@@ -301,7 +301,7 @@ footer h4 {
     
     h1 {
         font-family: 'Darker Grotesque', serif;
-        font-size: 160px;
+        font-size: 140px;
         font-weight: 400;
         line-height: 0.75;
         letter-spacing: 0px;
@@ -378,6 +378,12 @@ footer h4 {
         max-width: 1440px;
         margin-left: 0px;
         margin-right: 0px;
+        padding: 5%;
+        background-color: #1A1A1A;
+    }
+
+    .content {
+        background-color: #1A1A1A;
     }
 
 
@@ -502,6 +508,8 @@ footer h4 {
     /* Footer */
 
     footer {
+        display: flex;
+        align-items: baseline;
         padding-top: 20px;
         padding-bottom: 20px;
         background-color: white;
@@ -509,14 +517,28 @@ footer h4 {
     
     footer a {
         display: block;
-        font-size: 60px;
+        font-size: 18px;
         line-height: 0px;
         font-family: 'Darker Grotesque', serif;
         background-color: none;
         text-decoration: none;
         color: black;
         padding-bottom: 48px;
+        padding-right: 20px;
+    }
+
+    #left {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        justify-items: flex-end;
         
+    }
+
+    #right {
+        display: flex;
+        justify-content: space-between;
     }
     
     footer p {
@@ -736,12 +758,16 @@ footer h4 {
 
     .left {
         grid-column: 1 / 7;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
+    }
+
+    .left div {
+        padding-top: 60px;
     }
     
     .right {
         grid-column: 7 / 13;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
 
     .left p {
@@ -749,14 +775,24 @@ footer h4 {
         ;
     }
 
-    .right div h2 {
-        padding: 0 0 48px 0;
+    .right h5 {
+        padding: 0 0 20px 0;
+        margin: 0px;
+    }
+
+    .left div h3 {
+        padding: 0 0 60px 0;
+        margin: 0px;
+    }
+
+    .right div h3 {
+        padding: 0 0 60px 0;
         margin: 0px;
     }
 
     .right h4 {
         margin: 0px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
 
     hr {
