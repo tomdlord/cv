@@ -6,7 +6,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 300;
-    line-height: 1.6;
+    line-height: 1.8;
     color: #1A1A1A;
     margin: 0px;
     padding: 0px;
@@ -21,7 +21,7 @@ h1 {
     line-height: 0.75;
     letter-spacing: 0px;
     text-align: center;
-    color: #1A1A1A;
+    color: #1A1A1A;color: #1A1A1A;
     opacity: 1;
 }
 
@@ -32,7 +32,7 @@ h2 {
     line-height: 1;
     letter-spacing: 0px;
     text-align: left;
-    color: #1A1A1A;
+    color: #1A1A1A;color: #1A1A1A;
     opacity: 1;
 }
 
@@ -43,7 +43,7 @@ h3 {
     line-height: 1;
     letter-spacing: 0px;
     text-align: left;
-    color: #1A1A1A;
+    color: #1A1A1A;color: #1A1A1A;
     opacity: 1;
 }
 
@@ -95,6 +95,10 @@ a:hover {
     margin-right: auto;
     padding-left: 48px;
     padding-right: 48px;
+}
+
+main {
+    margin: 0px;
 }
 
 /* Navigation */
@@ -169,7 +173,7 @@ header a {
     padding-bottom: 64px;
   }
   
-  .project1, .project2, .project3, .project4{
+  .project-card{
     display: flexbox;
   }
   
@@ -193,6 +197,9 @@ header a {
 /* Footer */
 
 footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: white;
@@ -251,7 +258,7 @@ footer h4 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 18px;
         font-weight: 300;
-        line-height: 1.6;
+        line-height: 1.8;
         color: #1A1A1A;
         margin: 0px;
         padding: 0px;
@@ -261,27 +268,38 @@ footer h4 {
 
     h1 {
         font-family: 'Darker Grotesque', serif;
-        font-size: 80px;
+        font-size: 160px;
         font-weight: 400;
         line-height: 0.75;
         letter-spacing: 0px;
         text-align: center;
-        color: #1A1A1A;
+        color: #1A1A1A;color: #1A1A1A;
         opacity: 1;
     }
 
     h2 {
+        font-family: 'Darker Grotesque', serif;
+        font-size: 80px;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1A1A1A;color: #1A1A1A;
+        opacity: 1;
+    }
+
+    h3 {
         font-family: 'Darker Grotesque', serif;
         font-size: 40px;
         font-weight: 300;
         line-height: 1;
         letter-spacing: 0px;
         text-align: left;
-        color: #1A1A1A;
+        color: #1A1A1A;color: #1A1A1A;
         opacity: 1;
     }
 
-    h3 {
+    h4 {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 22px;
         font-weight: 300;
@@ -292,7 +310,7 @@ footer h4 {
         opacity: 1;
     }
 
-    h4 {
+    h5 {
         font-family: 'Darker Grotesque', serif;
         font-size: 18px;
         font-weight: 300;
@@ -370,18 +388,13 @@ footer h4 {
 
     .hero {
         max-width: 1440px;
-        height: 300px;
         margin: 0px;
         padding: 0px;
     }
 
-    .hero h1 {
-        position: fixed;
-        top: 100px;
-        left: 20px;
+    .hero h2 {
+        padding-top: 100px;
         width: 100%;
-        transform: translateX(0%);
-        z-index: -1;
     }
 
 
@@ -398,11 +411,12 @@ footer h4 {
     .projecttext{
         display: flex;
         justify-content: space-between;
+        align-items: baseline;
         padding-top: 24px;
         padding-bottom: 48px;
     }
     
-    .project1, .project2, .project3, .project4{
+    .project-card {
         display: flexbox;
     }
     
@@ -488,8 +502,8 @@ footer h4 {
 
     h2 {
         font-family: 'Darker Grotesque', serif;
-        font-size: 26px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
         line-height: 1.2;
         letter-spacing: 0px;
         text-align: left;
@@ -499,7 +513,7 @@ footer h4 {
 
     h3 {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 18px;
+        font-size: 26px;
         font-weight: 300;
         line-height: 1.6;
         letter-spacing: 0px;
@@ -509,8 +523,19 @@ footer h4 {
     }
 
     h4 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.5;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1A1A1A;
+        opacity: 1;
+    }
+
+    h5 {
         font-family: 'Darker Grotesque', serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 300;
         line-height: 1;
         text-align: left;;
@@ -586,20 +611,16 @@ footer h4 {
     /* Hero */
 
     .hero {
-        max-width: 1440px;
-        height: 150px;
+        max-width: 750px;
+        height: 200px;
         margin: 0px;
         padding: 0px;
     }
 
-    .hero h1 {
-        position: fixed;
-        bottom: 80px;
-        left: 0px;
+    .hero h2 {
+        color: #1A1A1A;
+        padding-top: 150px;
         margin: 0px;
-        left: 20px;
-        transform: translateX(0%);
-        z-index: -1;
     }
 
     .scroll {
@@ -624,12 +645,13 @@ footer h4 {
     
     .projecttext{
         display: block;
-        padding-top: 24px;
-        padding-bottom: 48px;
+        padding-top: 30px;
+        padding-bottom: 60px;
     }
     
-    .project1, .project2, .project3, .project4{
+    .project-card{
         display: flexbox;
+        max-width: 750px;
     }
     
     .projects img{
@@ -639,7 +661,7 @@ footer h4 {
         width: 100%;
     }
     
-    .projecttext h2, h3{
+    .projecttext h3, h4{
         padding: 0;
         margin: 0;
     }
@@ -655,6 +677,7 @@ footer h4 {
     }
 
     footer {
+        position: relative;
         padding-bottom: 0px;
         padding-top: 0px;
     }
