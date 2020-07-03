@@ -220,6 +220,8 @@ footer a {
 footer p {
     color: black;
     font-size: small;
+    text-align: center;
+    justify-content: center;
 }
 
 footer h4 {
@@ -672,14 +674,28 @@ footer h4 {
 
     /* Footer */
 
-    footer .container {
-        background-color: transparent;
-    }
+    /* Footer */
 
     footer {
-        position: relative;
-        padding-bottom: 0px;
-        padding-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: white;
+    }
+
+    footer a {
+        font-size: 60px;
+        line-height: 0px;
+        font-family: 'Darker Grotesque', serif;
+        background-color: none;
+        text-decoration: none;
+        color: black;
+        padding-bottom: 48px;
+        
+    }
+
+    footer p {
+        color: black;
+        font-size: small;
     }
 
     
