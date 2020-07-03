@@ -660,9 +660,10 @@ footer h4 {
     
     .projects img{
         display: block;
+        margin: 0px;
         line-height: 0px;
         object-fit: contain;
-        width: 100%;
+        max-width: 90vw;
     }
     
     .projecttext h3, h4{
