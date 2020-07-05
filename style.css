@@ -78,7 +78,7 @@ a {
     line-height: 1.5;
     text-align: left;
     text-decoration: underline;
-    color: rgb(126, 126, 126);
+    color: #FFFFFF;
     margin: 0px;
     padding: 0px;
     opacity: 1;
@@ -191,7 +191,7 @@ header {
 }
 
 .content {
-    padding: 200px 0 150px 0;
+    padding: 200px 0 50px 0;
     background-color: #1a1a1a;
     margin: 0px;
     width: 100%;
@@ -207,13 +207,20 @@ header {
     margin: 0px;
 }
 
-.left {
+.left, .left h4 {
     grid-column: 1 / 6;
     margin: 0px;
+    padding: 0 0 40px 0;
+}
+
+.left div h5, h3 {
+    margin: 0px;
+    padding: 0px;
 }
 
 .left a {
     text-decoration: none;
+    
 }
 
 .right {
@@ -221,14 +228,27 @@ header {
     margin: 0px;
 }
 
-.left p, h3 {
+.left p, .left h3 {
     padding-bottom: 40px;
+    margin: 0px;
     
 }
 
 .right h3 {
     padding: 0px;
     margin: 0px;
+}
+
+.right div h5 {
+    padding: 0px;
+    margin: 0 0 20px 0;
+
+}
+
+.left div h5 {
+    padding: 0px;
+    margin: 0 0 20px 0;
+
 }
 
 #contact {
@@ -258,9 +278,6 @@ footer {
     padding-right: 2%;
 }
 
-#left {
-
-}
 
 footer p {
     color: black;

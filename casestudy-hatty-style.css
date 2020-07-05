@@ -10,7 +10,7 @@ body {
     color: #1A1A1A;
     margin: 0px;
     padding: 0px;
-    background: #ffffff;
+    background: #F2F2F2;
     opacity: 1;
 }
 
@@ -93,12 +93,29 @@ a:hover {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 48px;
-    padding-right: 48px;
 }
 
 main {
     margin: 0px;
+}
+
+.textblock {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container .image-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    object-fit: cover;
+    padding: 100px 0 100px 0;
+}
+
+.image-block img {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Navigation */
@@ -156,13 +173,30 @@ header a {
     z-index: -2;
 }
 
+.credits {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+#agency, #role {
+    display: flex;
+}
+
+#agency {
+    padding-right: 40px;
+}
+
+/* Selected work */
+
+
 /* Selected work */
 
 .projects{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     column-gap: 48px;
-    background: #ffffff;
+    background: #F2F2F2;
     z-index: 100;
   }
   
