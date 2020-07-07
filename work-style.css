@@ -93,16 +93,10 @@ a:hover {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 48px;
-    padding-right: 48px;
-}
-
-main {
-    margin: 0px;
-    background: #ffffff;
 }
 
 /* Navigation */
+
 
 header {
     display: flex;
@@ -122,7 +116,7 @@ header {
     text-align: center;
     list-style: none;
     text-decoration: none;
-    color: #ffffff;
+    color: #1a1a1a;
     text-transform: uppercase;
     opacity: 1;
 }
@@ -137,10 +131,11 @@ header {
     letter-spacing: 5px;
     text-align: center;
     text-decoration: none;
-    color: #1A1A1A;
+    color: #1a1a1a;
     text-transform: uppercase;
     opacity: 1;
 }
+
 
 
 /* Hero */
@@ -362,19 +357,31 @@ footer h4 {
     /* Navigation */
 
     header {
-        position: relative;
-    }
-    
-    header div{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 48px 0px 0px 0px;
+        padding: 48px 10% 0px 10%;
     }
     
+    
+    .nav-links li {
+        display: inline-block;
+        align-items: baseline;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-align: center;
+        list-style: none;
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    
+    .nav-links a{
+        text-decoration: none;
+    }
     
     .nav {
         font-size: 14px;
@@ -567,7 +574,6 @@ footer h4 {
         max-width: 1440px;
         margin: 0px;
         padding: 24px;
-        background: #F2F2F2;
         opacity: 1;
     }
 
@@ -578,18 +584,11 @@ footer h4 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 20px 0px 20px;
+        padding: 48px 10% 0px 10%;
+        margin: 0px;
     }
-
-    header div{
-        
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 48px 0px 0px 0px;
-    }
-
-
+    
+    
     .nav-links li {
         display: inline-block;
         align-items: baseline;
@@ -600,15 +599,15 @@ footer h4 {
         text-align: center;
         list-style: none;
         text-decoration: none;
-        color: #1a1a1a;
+        color: #ffffff;
         text-transform: uppercase;
         opacity: 1;
     }
-
+    
     .nav-links a{
         text-decoration: none;
     }
-
+    
     .nav {
         font-size: 14px;
         font-weight: 400;
@@ -684,7 +683,6 @@ footer h4 {
         font-weight: lighter;
     }
 
-    /* Footer */
 
     /* Footer */
 
