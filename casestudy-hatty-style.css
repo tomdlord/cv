@@ -129,14 +129,6 @@ header {
     padding: 48px 10% 0px 10%;
 }
 
-header div{
-    
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 48px 0px 0px 0px;
-}
-
 
 .nav-links li {
     display: inline-block;
