@@ -122,16 +122,40 @@ main {
 
 
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 48px 10% 0px 10%;
+}
+
+header div{
+    
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding: 48px 0px 0px 0px;
 }
 
+
+.nav-links li {
+    display: inline-block;
+    align-items: baseline;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
 
 .nav {
     font-size: 14px;
