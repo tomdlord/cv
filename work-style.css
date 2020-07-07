@@ -61,13 +61,13 @@ h4 {
 h5 {
     font-family: 'Darker Grotesque', serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1;
     text-align: left;;
     letter-spacing: 0.8px;
     color: #1A1A1A;
     text-transform: uppercase;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 a {
@@ -104,37 +104,31 @@ main {
 /* Navigation */
 
 header {
+    position: relative;
+}
+
+header div{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding: 48px 48px 0px 48px;
+    padding: 48px 0px 0px 0px;
 }
 
 
-#logo {
+.nav {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 5px;
     text-align: center;
     text-decoration: none;
-    color: #1a1a1a;
+    color: #1A1A1A;
     text-transform: uppercase;
     opacity: 1;
-    position: fixed;
-    padding-top: 50px;
 }
 
-
-header h5, a {
-    color: white;
-}
-
-header a {
-    padding-left: 24px;
-}
 
 /* Hero */
 

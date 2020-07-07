@@ -98,24 +98,40 @@ a:hover {
 
 /* Navigation */
 
+
 header {
-    position: fixed;
+    position: relative;
+}
+header div{
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 0px 0px 0px;
+}
+
+
+.nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
     text-align: center;
-    justify-content: center;
-    padding-top: 80px;
-    width: 100vw;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
 }
 
 
 #logo {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 28px;
+    font-family: 'Darker Grotesque', serif;
+    font-weight: 500;
     letter-spacing: 5px;
-    color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     opacity: 1;
