@@ -221,6 +221,10 @@ header div{
     padding: 50px 0 50px 0;
 }
 
+hr {
+    opacity: 0.3;
+}
+
 .next-project img {
     transform: rotate(-90deg);
 }
