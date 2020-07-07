@@ -146,6 +146,11 @@ header {
     padding: 200px 0 0 0;
 }
 
+.hero h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
 
 .scroll {
     display: flex;
@@ -166,6 +171,7 @@ header {
     column-gap: 48px;
     background: #ffffff;
     z-index: 100;
+    padding-top: 100px;
   }
   
   .projecttext{
