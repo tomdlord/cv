@@ -349,36 +349,29 @@ footer h4 {
     /* Navigation */
 
     header {
+        position: relative;
+    }
+    
+    header div{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         max-width: 1440px;
         margin-left: auto;
         margin-right: auto;
-        padding: 48px 48px 0px 48px;
+        padding: 48px 0px 0px 0px;
     }
-
-
-    #logo {
+    
+    
+    .nav {
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 5px;
         text-align: center;
         text-decoration: none;
-        color: #1a1a1a;
+        color: #1A1A1A;
         text-transform: uppercase;
         opacity: 1;
-        position: fixed;
-        padding-top: 50px;
-    }
-
-
-    header h5, a {
-        color: white;
-    }
-
-    header a {
-        padding-left: 24px;
     }
 
     /* Hero */
@@ -569,40 +562,29 @@ footer h4 {
     /* Navigation */
 
     header {
-        display: flex;
-        justify-content: left;
-        align-items: left;
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 12px 24px 0px 24px;
+        position: relative;
     }
-
-
-    #logo {
+    
+    header div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1440px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 48px 0px 0px 0px;
+    }
+    
+    
+    .nav {
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 5px;
-        text-align: left;
-        position: fixed;
-        left: 0px;
-        top: 0px;
-        background-color: #F2F2F2;
-        width: 100%;
-        margin: 0px;        
-        transform: translateX(0%);
-        z-index: 100;
-        padding-top: 40px;
-        height: 48px;
-    }
-
-
-    header h5, a {
+        text-align: center;
+        text-decoration: none;
         color: #1A1A1A;
-    }
-
-    header a {
-        padding-left: 24px;
+        text-transform: uppercase;
+        opacity: 1;
     }
 
     /* Hero */
@@ -660,7 +642,7 @@ footer h4 {
         max-width: 90vw;
     }
     
-    .projecttext h3, h4{
+    .projecttext h3, .projecttext h4{
         padding: 0;
         margin: 0;
     }
