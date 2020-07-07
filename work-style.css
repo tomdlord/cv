@@ -582,27 +582,47 @@ footer h4 {
     /* Navigation */
 
     header {
-        position: relative;
-    }
-    
-    header div{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1440px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 20px 0px 0px 0px;
+        padding: 20px 20px 0px 20px;
     }
-    
-    
+
+    header div{
+        
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 48px 0px 0px 0px;
+    }
+
+
+    .nav-links li {
+        display: inline-block;
+        align-items: baseline;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-align: center;
+        list-style: none;
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+
+    .nav-links a{
+        text-decoration: none;
+    }
+
     .nav {
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 5px;
         text-align: center;
         text-decoration: none;
-        color: #1A1A1A;
+        color: #ffffff;
         text-transform: uppercase;
         opacity: 1;
     }
