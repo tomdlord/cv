@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+
+/* Type styles */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #1A1A1A;
+    margin: 0px;
+    padding: 0px;
+    background: #f2f2f2;
+    opacity: 1;
+}
+
+h1 {
+    font-family: 'Darker Grotesque', serif;
+    font-size: 300px;
+    font-weight: 400;
+    line-height: 0.75;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Darker Grotesque', serif;
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+h3 {
+    font-family: 'Darker Grotesque', serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.75;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: left;;
+    letter-spacing: 4px;
+    color: #1A1A1A;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #1A1A1A;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1;
+}
+
+a:hover {
+    color: orange;
+}
+
+/* Structure */
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+}
+
+/* Navigation */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 0;
+    margin: 0px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.nav-links li {
+    display: inline-block;
+    align-items: baseline;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+
+.nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+/* Casestudy */
+
+.hero {
+    max-width: 1440px;
+    margin: 0px;
+    padding: 200px 0 0 0;
+}
+
+.hero h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.textblock {
+    padding: 100px 0 100px 0;
+    margin: 0px;
+    max-width: 80%;
+}
+
+.container .image-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    object-fit: cover;
+}
+
+.image-block img {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.credits {
+    display: flex;
+    margin: 0px;
+    padding: 40px 0 0 0;
+}
+
+.credits h5 {
+    padding-right: 20px;
+}
+
+#agency, #role {
+    display: flex;
+    align-items: baseline;
+}
+
+#agency {
+    padding-right: 80px;
+}
+
+
+#hero-img {
+    max-width: 1440px;
+}
+
+
+
+/* Hero */
+
+
+
+.hero h1 {
+    position: absolute;
+    bottom: 0px;
+    line-height: 0.75;
+    animation-name: herofadein;
+    animation-duration: 1s;
+    -webkit-animation-name: herofadein;
+    -webkit-animation-duration: 1s;
+  
+    
+}
+  
+@keyframes herofadein{
+    0% {opacity: 0%;}
+    80% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+@-webkit-keyframes herofadein{
+    0% {opacity: 0%;}
+    80% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    animation-name: herofadein;
+    animation-duration: 2s;
+    -webkit-animation-name: herofadein;
+    -webkit-animation-duration: 2s;
+}
+
+/* Selected work */
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    column-gap: 48px;
+    z-index: 100;
+    padding-top: 100px;
+}
+  
+.projecttext{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+  
+.project-card{
+    display: flexbox;
+}
+  
+.projects img{
+    display: block;
+    object-fit: contain;
+    width: 100%;
+}
+  
+.projecttext h4, 
+.projecttext h3{
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+  
+.year{
+    font-weight: lighter;
+    opacity: 0.5;
+}
+
+
+
+/* Main Content */
+
+
+.content {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 48px;
+    margin: 0px;
+    padding: 200px 0 200px 0;
+}
+
+.about-intro {
+    width: 70%;
+    height: 40vh;
+}
+
+#experience {
+    grid-column: 1 / 4;
+}
+
+#capabilites {
+    grid-column: 4 / 7;
+}
+
+#clients {
+    grid-column: 7 / 10;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    font-family: 'Darker Grotesque', serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1A1A1A;
+    opacity: 1;
+}
+
+/* Next Project */
+
+.next-project {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 50px 0;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+.next-project img {
+    transform: rotate(-90deg);
+}
+
+#end-nav {
+    padding: 100px 0 100px 0;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 200px;
+    padding-bottom: 20px;
+    background: #ffffff;
+}
+
+footer h5, 
+footer h2{
+    color: #1A1A1A;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer a,
+footer p {
+    color: #1A1A1A;
+    font-size: small;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 200px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1440px) {
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 750px) {
+
+    
+
+    
+
+}
