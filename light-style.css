@@ -780,7 +780,10 @@ footer p {
 
 
 
-@media (max-width: 750px) {
+@media (max-width: 750px) only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3){
 
     /* Type styles */
 
