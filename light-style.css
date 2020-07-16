@@ -778,13 +778,13 @@ footer p {
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 750px) {
 
     /* Type styles */
 
     body {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 300;
         line-height: 1.8;
         color: #1A1A1A;
@@ -796,83 +796,85 @@ footer p {
 
     h1 {
         font-family: 'Darker Grotesque', serif;
-        font-size: 300px;
-        font-weight: 400;
-        line-height: 0.75;
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 1;
         letter-spacing: 0px;
         text-align: left;
-        color: #1A1A1A;
+        color: #1a1a1a;
         opacity: 1;
     }
 
     h2 {
         font-family: 'Darker Grotesque', serif;
-        font-size: 40px;
+        font-size: 34px;
         font-weight: 300;
         line-height: 1;
         letter-spacing: 0px;
         text-align: left;
-        color: #1A1A1A;
+        color: #1a1a1a;
         opacity: 1;
     }
 
     h3 {
         font-family: 'Darker Grotesque', serif;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 300;
         line-height: 1;
         letter-spacing: 0px;
         text-align: left;
-        color: #1A1A1A;
+        color: #1a1a1a;
         opacity: 1;
     }
 
     h4 {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 24px;
+        font-size: 26px;
         font-weight: 300;
         line-height: 1.75;
         letter-spacing: 0px;
         text-align: left;
-        color: #1A1A1A;
+        color: #1a1a1a;
         opacity: 1;
     }
 
     h5 {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: 'Darker Grotesque', serif;
+        font-size: 14px;
+        font-weight: 300;
         line-height: 1;
-        text-align: left;;
-        letter-spacing: 4px;
-        color: #1A1A1A;
+        text-align: left;;10
+        letter-spacing: 3px;
+        color: #1a1a1a;
         text-transform: uppercase;
-        opacity: 0.5;
+        opacity: 0.8;
     }
 
     a {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 18px;
         font-weight: 300;
-        line-height: 1.8;
-        color: #1A1A1A;
-        text-decoration: none;
+        line-height: 1.5;
+        text-align: left;
+        text-decoration: underline;
+        color: #1a1a1a;
         margin: 0px;
         padding: 0px;
         opacity: 1;
     }
 
     a:hover {
-        color: orange;
-    }
+        color: gray;
+    }1a1a1a
 
     /* Structure */
 
     .container {
         max-width: 600px;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
         padding-top: 0px;
+        white-space: initial;
     }
 
     /* Navigation */
@@ -885,8 +887,8 @@ footer p {
         padding: 20px 0 0 0;
         margin: 0px;
         max-width: 600px;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
         padding-top: 0px;
     }
 
@@ -1070,12 +1072,13 @@ footer p {
         display: flex;
         flex-direction: column;
         margin: 0px;
-        padding: 100px 0 100px 0;
+        padding: 20px 0 100px 0;
     }
 
     .about-intro {
+        margin: 0px;
         width: 100%;
-        height: 700px;
+        padding-top: 10px;
     }
 
     #experience {
@@ -1101,7 +1104,7 @@ footer p {
 
     li {
         font-family: 'Darker Grotesque', serif;
-        font-size: 32px;
+        font-size: 44px;
         font-weight: 300;
         line-height: 1.2;
         letter-spacing: 0px;
