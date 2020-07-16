@@ -836,6 +836,8 @@ footer p {
         text-align: left;
         color: #1a1a1a;
         opacity: 1;
+        padding: 20px 0 0 0;
+        margin: 0px;
     }
 
     h5 {
@@ -867,7 +869,7 @@ footer p {
 
     a:hover {
         color: gray;
-    }1a1a1a
+    }
 
     /* Structure */
 
