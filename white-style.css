@@ -767,7 +767,7 @@ footer p {
         color: #1A1A1A;
         margin: 0px;
         padding: 0px;
-        background: #f2f2f2;
+        background: #ffffff;
         opacity: 1;
     }
 
@@ -918,7 +918,7 @@ footer p {
     }
 
     .textblock {
-        padding: 100px 0 100px 0;
+        padding: 50px 0 50px 0;
         margin: 0px;
         max-width: 100%;
     }
@@ -930,36 +930,44 @@ footer p {
     }
 
     .image-block img {
-        max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 100%;
+        object-fit: contain;
         padding: 10px 0 10px 0;
-        object-fit: cover;
     }
 
     .credits {
         display: flex;
+        flex-direction: column;
         margin: 0px;
-        padding: 40px 0 0 0;
+        padding: 20px 0 0 0;
     }
 
+    .credits p {
+        margin: 0px;
+        padding-top: 10px;
+    }
+
+
     .credits h5 {
-        padding-right: 20px;
+        padding: 0 20px 0 0;
+        margin: 0px;
     }
 
     #agency, #role {
         display: flex;
         align-items: baseline;
+        margin: 0px;
+        padding: 0px;
     }
 
     #agency {
-        padding-right: 80px;
+        padding-right: 0px;
+        margin: 0px;
     }
 
 
     #hero-img {
-        max-width: 400px;
-        margin: auto;
+        max-width: 100%;
     }
 
 
@@ -1095,7 +1103,6 @@ footer p {
     .next-project {
         display: flex;
         justify-content: space-between;
-        padding: 50px 0 50px 0;
     }
 
     hr {
@@ -1107,14 +1114,15 @@ footer p {
     }
 
     #end-nav {
-        padding: 100px 0 100px 0;
+        padding: 0px 0 0px 0;
     }
 
     /* Footer */
 
     footer {
-        padding-top: 60px;
-        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        margin: 0px;
         background: #ffffff;
     }
 
@@ -1136,7 +1144,8 @@ footer p {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        padding: 40px 0 0 0;
+        padding: 10px 0 0 0;
+        margin: 0px;
     }
 
     
