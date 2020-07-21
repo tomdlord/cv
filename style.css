@@ -384,7 +384,7 @@ footer p {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 0 0 0;
+        padding: 60px 0 0 0;
         margin: 0px;
         max-width: 1000px;
         margin-left: 10%;
@@ -717,7 +717,7 @@ footer p {
 
     .hero h1 {
         margin: 0px;
-        padding: 200px 0 0 0;
+        padding: 60px 0 0 0;
         width: 100%;
         animation-name: herofadein;
         animation-duration: 0.25s;

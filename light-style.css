@@ -103,8 +103,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 0 0 0;
-    margin: 0px;
+    padding: 60px 0 0px 0;
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
@@ -118,14 +117,15 @@ ul {
 .nav-links li {
     display: inline-block;
     align-items: baseline;
-    padding: 10px;
+    padding: 0px;
+    margin: 0px;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 5px;
     text-align: center;
     list-style: none;
     text-decoration: none;
-    color: #ffffff;
+    color: #1a1a1a;
     text-transform: uppercase;
     opacity: 1;
 }
@@ -300,6 +300,7 @@ ul {
 
 .about-intro {
     width: 70%;
+    padding-top: 100px;
 }
 
 #experience {
@@ -497,7 +498,7 @@ footer p {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 0 0 0;
+        padding: 60px 0 0 0;
         margin: 0px;
         max-width: 1000px;
         margin-left: 10%;
@@ -531,7 +532,7 @@ footer p {
         letter-spacing: 5px;
         text-align: center;
         text-decoration: none;
-        color: #1a1a1a;
+        color: #ffffff;
         text-transform: uppercase;
         opacity: 1;
     }
@@ -691,6 +692,7 @@ footer p {
 
     .about-intro {
         width: 90%;
+        padding-top: 100px;
     }
 
     #experience {
