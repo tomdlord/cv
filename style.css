@@ -150,6 +150,11 @@ ul {
     -webkit-animation-duration: 0.5s;
 }
 
+.hero h3 {
+    text-align: center;
+    margin: auto;
+}
+
  
 @keyframes herofadein{
     0% {opacity: 0%;}
