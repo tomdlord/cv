@@ -90,10 +90,9 @@ a:hover {
 /* Structure */
 
 .container {
-    max-width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 0px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Navigation */
@@ -105,8 +104,8 @@ header {
     align-items: center;
     padding: 60px 0 0px 0;
     max-width: 1400px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
