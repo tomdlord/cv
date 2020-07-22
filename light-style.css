@@ -1168,6 +1168,12 @@ footer p {
         margin: 0px;
     }
 
+    footer h2 {
+        padding-top: 10px;
+        font-size: 46px;
+    }
+        
+
     footer a,
     footer p {
         color: #1A1A1A;

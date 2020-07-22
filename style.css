@@ -372,8 +372,8 @@ footer p {
 
     .container {
         max-width: 1000px;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
         padding-top: 0px;
     }
 
@@ -384,19 +384,22 @@ footer p {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 60px 0 0 0;
-        margin: 0px;
-        max-width: 1000px;
-        margin-left: 10%;
-        margin-right: 10%;
-        padding-top: 0px;
+        padding: 60px 0 0px 0;
+        max-width: 1400px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
-
-
+    
+    ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    
     .nav-links li {
         display: inline-block;
         align-items: baseline;
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 5px;
@@ -407,11 +410,11 @@ footer p {
         text-transform: uppercase;
         opacity: 1;
     }
-
+    
     .nav-links a{
         text-decoration: none;
     }
-
+    
     .nav {
         font-size: 14px;
         font-weight: 400;
@@ -422,7 +425,6 @@ footer p {
         text-transform: uppercase;
         opacity: 1;
     }
-
 
 
     /* Hero */
@@ -767,7 +769,7 @@ footer p {
         background: #1a1a1a;
         z-index: 100;
         padding-top: 10px;
-        padding-bottom: 100px;
+        padding-bottom: 20px;
     }
 
     .projecttext{
@@ -775,11 +777,12 @@ footer p {
         align-items: baseline;
         justify-content: space-between;
         padding-top: 10px;
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
     
     .project-card{
         display: flexbox;
+        padding: 0px;
     }
     
     .projects img{
@@ -815,6 +818,12 @@ footer p {
         padding: 0px;
         margin: 0px;
     }
+
+    footer h2 {
+        padding-top: 10px;
+        font-size: 46px;
+    }
+        
 
     footer a,
     footer p {
