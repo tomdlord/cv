@@ -843,6 +843,9 @@ footer p {
         white-space: initial;
     }
 
+    /* Navigation */
+
+
     header {
         display: flex;
         justify-content: space-between;
@@ -862,8 +865,8 @@ footer p {
     .nav-links li {
         display: inline-block;
         align-items: baseline;
-        padding: 5px;
-        font-size: 12px;
+        padding: 0 0 0 5px;
+        font-size: 10px;
         font-weight: 400;
         letter-spacing: 5px;
         list-style: none;
@@ -878,7 +881,7 @@ footer p {
 
     .nav {
         font-weight: 400;
-        letter-spacing: 5px;
+        letter-spacing: 4px;
         text-decoration: none;
         text-transform: uppercase;
         opacity: 1;
