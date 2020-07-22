@@ -835,7 +835,7 @@ footer p {
 
     h4 {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 300;
         line-height: 1.75;
         letter-spacing: 0px;
@@ -880,7 +880,7 @@ footer p {
     /* Structure */
 
     .container {
-        max-width: 600px;
+        max-width: 100%;
         margin-left: 10%;
         margin-right: 10%;
         padding-top: 0px;
@@ -896,7 +896,7 @@ footer p {
         align-items: center;
         padding: 20px 0 0 0;
         margin: 0px;
-        max-width: 600px;
+        max-width: 100%;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -937,61 +937,7 @@ footer p {
         opacity: 1;
     }
 
-    /* Casestudy */
-
-    .hero {
-        max-width: 1440px;
-        margin: 0px;
-        padding: 100px 0 0 0;
-    }
-
-    .hero h2 {
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .textblock {
-        padding: 100px 0 100px 0;
-        margin: 0px;
-        max-width: 100%;
-    }
-
-    .container .image-block {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        object-fit: cover;
-    }
-
-    .image-block img {
-        max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .credits {
-        display: flex;
-        margin: 0px;
-        padding: 40px 0 0 0;
-    }
-
-    .credits h5 {
-        padding-right: 20px;
-    }
-
-    #agency, #role {
-        display: flex;
-        align-items: baseline;
-    }
-
-    #agency {
-        padding-right: 80px;
-    }
-
-
-    #hero-img {
-        max-width: 1440px;
-    }
+    
 
 
 
@@ -1023,15 +969,6 @@ footer p {
         100% {opacity: 100%;}
     }
 
-
-    .scroll {
-        display: flex;
-        flex-direction: column;
-        animation-name: herofadein;
-        animation-duration: 2s;
-        -webkit-animation-name: herofadein;
-        -webkit-animation-duration: 2s;
-    }
 
     /* Selected work */
 
@@ -1096,7 +1033,7 @@ footer p {
 
     .about-intro {
         margin: 0px;
-        width: 90%;
+        width: 95%;
         padding-top: 60px;
     }
 
@@ -1123,7 +1060,7 @@ footer p {
 
     li {
         font-family: 'Darker Grotesque', serif;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 300;
         line-height: 1.2;
         letter-spacing: 0px;
@@ -1170,7 +1107,7 @@ footer p {
 
     footer h2 {
         padding-top: 10px;
-        font-size: 46px;
+        font-size: 4vh;
     }
         
 
