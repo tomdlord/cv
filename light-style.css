@@ -5,10 +5,10 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 1.8;
-    color: #1A1A1A;
+    color: #1a1a1a;
     margin: 0px;
     padding: 0px;
     background: #f2f2f2;
@@ -17,12 +17,12 @@ body {
 
 h1 {
     font-family: 'Darker Grotesque', serif;
-    font-size: 160px;
+    font-size: 120px;
     font-weight: 300;
-    line-height: 0.8;
+    line-height: 0.9;
     letter-spacing: 0px;
     text-align: left;
-    color: #1A1A1A;
+    color: #1a1a1a;color: #1a1a1a;
     opacity: 1;
 }
 
@@ -33,7 +33,7 @@ h2 {
     line-height: 1;
     letter-spacing: 0px;
     text-align: left;
-    color: #1A1A1A;
+    color: #1a1a1a;
     opacity: 1;
 }
 
@@ -44,38 +44,34 @@ h3 {
     line-height: 1;
     letter-spacing: 0px;
     text-align: left;
-    color: #1A1A1A;
+    color: #1a1a1a;
     opacity: 1;
 }
 
 h4 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 1.75;
     letter-spacing: 0px;
     text-align: left;
-    color: #1A1A1A;
+    color: #1a1a1a;
     opacity: 1;
 }
 
 h5 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: 'Darker Grotesque', serif;
+    font-size: 14px;
+    font-weight: 300;
     line-height: 1;
     text-align: left;;
-    letter-spacing: 4px;
-    color: #1A1A1A;
+    letter-spacing: 3px;
+    color: #1a1a1a;
     text-transform: uppercase;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 a {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 1.8;
     color: #1A1A1A;
     text-decoration: none;
     margin: 0px;
@@ -98,15 +94,13 @@ a:hover {
 
 /* Navigation */
 
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 60px 0 0px 0;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 ul {
@@ -117,17 +111,7 @@ ul {
 .nav-links li {
     display: inline-block;
     align-items: baseline;
-    padding: 0px;
-    margin: 0px;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 5px;
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    color: #1a1a1a;
-    text-transform: uppercase;
-    opacity: 1;
+    padding-left: 40px;
 }
 
 .nav-links a{
@@ -135,14 +119,13 @@ ul {
 }
 
 .nav {
-    font-size: 14px;
+    font-size: 12px;
+    text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 5px;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
-    color: #1a1a1a;
-    text-transform: uppercase;
-    opacity: 1;
+    opacity: 0.8;
 }
 
 /* Casestudy */
@@ -243,14 +226,23 @@ ul {
 
 /* Selected work */
 
+#select-works {
+    padding: 200px 0 0 0;
+    animation-name: herofadein;
+    animation-duration: 0.5s;
+    -webkit-animation-name: herofadein;
+    -webkit-animation-duration: 1s;
+}
+
 .projects{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     column-gap: 48px;
     z-index: 100;
-    padding-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 100px;
 }
-  
+
 .projecttext{
     display: flex;
     justify-content: space-between;
@@ -295,12 +287,12 @@ ul {
     grid-template-columns: repeat(12, 1fr);
     column-gap: 48px;
     margin: 0px;
-    padding: 100px 0 200px 0;
+    padding: 100px 0 300px 0;
 }
 
 .about-intro {
-    width: 70%;
-    padding-top: 100px;
+    width: 80%;
+    padding-top: 140px;
 }
 
 #experience {
@@ -400,7 +392,7 @@ footer p {
 
     body {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 300;
         line-height: 1.8;
         color: #1A1A1A;
@@ -468,7 +460,6 @@ footer p {
 
     a {
         font-family: 'Source Sans Pro', sans-serif;
-        font-size: 22px;
         font-weight: 300;
         line-height: 1.8;
         color: #1A1A1A;
@@ -493,33 +484,24 @@ footer p {
 
     /* Navigation */
 
-
     header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 60px 0 0 0;
-        margin: 0px;
-        max-width: 1000px;
-        margin-left: 10%;
-        margin-right: 10%;
-        padding-top: 0px;
+        padding: 60px 0 0px 0;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
+    ul {
+        padding: 0px;
+        margin: 0px;
+    }
 
     .nav-links li {
         display: inline-block;
         align-items: baseline;
-        padding: 10px;
-        font-size: 14px;
-        font-weight: 400;
-        letter-spacing: 5px;
-        text-align: center;
-        list-style: none;
-        text-decoration: none;
-        color: #ffffff;
-        text-transform: uppercase;
-        opacity: 1;
+        padding-left: 40px;
     }
 
     .nav-links a{
@@ -527,14 +509,13 @@ footer p {
     }
 
     .nav {
-        font-size: 14px;
+        font-size: 12px;
+        text-transform: uppercase;
         font-weight: 400;
         letter-spacing: 5px;
         text-align: center;
         text-decoration: none;
-        color: #ffffff;
-        text-transform: uppercase;
-        opacity: 1;
+        opacity: 0.8;
     }
 
     /* Casestudy */
@@ -691,7 +672,7 @@ footer p {
     }
 
     .about-intro {
-        width: 90%;
+        width: 80%;
         padding-top: 100px;
     }
 
@@ -826,7 +807,7 @@ footer p {
         font-family: 'Darker Grotesque', serif;
         font-size: 30px;
         font-weight: 300;
-        line-height: 1;
+        line-height: 1.4;
         letter-spacing: 0px;
         text-align: left;
         color: #1a1a1a;
@@ -894,9 +875,8 @@ footer p {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 0 0 0;
+        padding: 10% 0 0 0;
         margin: 0px;
-        max-width: 100%;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -910,14 +890,12 @@ footer p {
     .nav-links li {
         display: inline-block;
         align-items: baseline;
-        padding: 10px;
-        font-size: 14px;
+        padding: 5px;
+        font-size: 12px;
         font-weight: 400;
         letter-spacing: 5px;
-        text-align: center;
         list-style: none;
         text-decoration: none;
-        color: #1a1a1a;
         text-transform: uppercase;
         opacity: 1;
     }
@@ -927,12 +905,9 @@ footer p {
     }
 
     .nav {
-        font-size: 14px;
         font-weight: 400;
         letter-spacing: 5px;
-        text-align: center;
         text-decoration: none;
-        color: #1a1a1a;
         text-transform: uppercase;
         opacity: 1;
     }
