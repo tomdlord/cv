@@ -119,15 +119,14 @@ ul {
     align-items: baseline;
     padding: 0px;
     margin: 0px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 5px;
     text-align: center;
-    list-style: none;
     text-decoration: none;
     color: #ffffff;
-    text-transform: uppercase;
-    opacity: 1;
+    opacity: 0.8;
+    padding-left: 20px;
 }
 
 .nav-links a{
@@ -135,14 +134,13 @@ ul {
 }
 
 .nav {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 5px;
     text-align: center;
     text-decoration: none;
     color: #ffffff;
-    text-transform: uppercase;
-    opacity: 1;
+    opacity: 0.8;
 }
 
 
@@ -150,19 +148,27 @@ ul {
 /* Hero */
 
 .hero {
+    padding-top: 200px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .hero h1 {
     margin: 0px;
-    padding: 200px 0 0 0;
+    padding: 10px 0 0 0;
     width: 80%;
     animation-name: herofadein;
     animation-duration: 0.25s;
     -webkit-animation-name: herofadein;
     -webkit-animation-duration: 0.5s;
-  
+}
+
+.hero h5 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding: 0px;
+    margin: 0px;
 }
 
 /* 
