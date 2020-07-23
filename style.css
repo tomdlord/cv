@@ -601,10 +601,9 @@ footer p {
 
     .container {
         max-width: 100%;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
         padding-top: 0px;
-        white-space: initial;
     }
 
     /* Navigation */
@@ -614,10 +613,10 @@ footer p {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10% 0 0 0;
+        padding: 5% 0 0 0;
         margin: 0px;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     ul {
