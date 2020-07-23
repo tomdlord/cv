@@ -112,6 +112,7 @@ ul {
     display: inline-block;
     align-items: baseline;
     padding-left: 40px;
+    opacity: 0.5;
 }
 
 .nav-links a{
@@ -125,7 +126,6 @@ ul {
     letter-spacing: 5px;
     text-align: right;
     text-decoration: none;
-    opacity: 0.8;
 }
 
 /* Casestudy */
@@ -484,6 +484,7 @@ footer p {
 
     /* Navigation */
 
+
     header {
         display: flex;
         justify-content: space-between;
@@ -516,6 +517,8 @@ footer p {
         text-align: center;
         text-decoration: none;
         opacity: 0.8;
+        padding: 0px;
+        margin: 0px;
     }
 
     /* Casestudy */
@@ -896,7 +899,6 @@ footer p {
         list-style: none;
         text-decoration: none;
         text-transform: uppercase;
-        opacity: 1;
     }
 
     .nav-links a{
@@ -910,10 +912,6 @@ footer p {
         text-transform: uppercase;
         opacity: 1;
     }
-
-    
-
-
 
     /* Hero */
 
